@@ -1,0 +1,16 @@
+.links-box {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hover-move {
+  transition: transform 0.3s;
+}
+
+.hover-move:hover {
+  transform: translate(0, -10px); /* Adjust the values as needed */
+}
